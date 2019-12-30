@@ -5,8 +5,13 @@ call plug#begin()
 Plug 'StanAngeloff/php.vim'
 " Include nerdtree, which is a sidebar file-tree
 Plug 'scrooloose/nerdtree'
+" SpaceCamp colorscheme
+Plug 'jaredgorski/spacecamp'
 
 call plug#end()
+
+" Enable colorscheme spacecamp
+colorscheme spacecamp
 
 " Turn on syntax highlighting
 syntax on
