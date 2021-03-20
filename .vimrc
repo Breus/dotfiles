@@ -1,6 +1,8 @@
 " Begin vim-plug plug-in list
 call plug#begin()
 
+" C++ highlighting 
+Plug 'vim-scripts/c.vim'
 " Improved PHP highlighting
 Plug 'StanAngeloff/php.vim'
 " Include nerdtree, which is a sidebar file-tree
