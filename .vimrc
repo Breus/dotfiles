@@ -15,6 +15,10 @@ call plug#end()
 " Enable colorscheme spacecamp
 colorscheme spacecamp
 
+" Search settings
+set incsearch
+set smartcase
+
 " Turn on syntax highlighting
 syntax on
 
@@ -28,6 +32,15 @@ set ruler
 set tabstop=4
 set shiftwidth=4
 
+" Use system clipboard
+set clipboard=unnamed
 
-
-
+" Hard mode
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
